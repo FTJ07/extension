@@ -1,0 +1,14 @@
+{
+    "manifest_version":2,
+    "name":"Relatives Call Reminder",
+    "version":"1.0.0",
+    "description":"This will keep you reminding to call your relatives",
+    "browser_action":{
+        "default_icon":{
+            "16":"16.png"
+        },
+        "default_popup":"popup.html"
+    }
+    
+
+}

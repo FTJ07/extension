@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="styles/popup.css" />
+
+
+<script src="lib/jquery-3.3.1.min.js"></script>
+
+<script src="lib/firebase.js"></script>
+<script src="lib/firebase-database.js"></script>
+
+
+
+</head>
+
+<body>
+        <div class="popup-container">
+              <div class="register-relative-container">
+                    <form >
+                        <div class="form-group">
+                            <label for="name">Relative Name:</label>
+                            <input type="text" class="form-control" id="relativeName">
+                        </div>
+                        <div class="form-group">
+                            <label for="Phone Number">Relative Phone Number (Optional):</label>
+                            <input type="number" class="form-control" id="relativeNumber">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Remind Me in Days?</label>
+                            <input type="number" class="form-control" id="remindingDays">
+                        </div>
+                        <div class="form-group">
+                            <button type="button" id="addRelative" class="btn btn-primary">Add Relative</button>
+                        </div>
+                    </form>
+              </div>
+        </div>
+        <script src="lib/popup.js"></script>
+</body>
+
+</html>
